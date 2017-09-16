@@ -1,0 +1,23 @@
+{
+    "family": "txtchat",
+    "containerDefinitions": [
+        {
+            "name": "txtchat",
+            "image": "305551978151.dkr.ecr.us-east-2.amazonaws.com/txtchat",
+            "cpu": 10,
+            "memory": 500,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 80
+                }
+            ],
+            "entryPoint": [
+                "/usr/sbin/apache2",
+                "-D",
+                "FOREGROUND"
+            ],
+            "essential": true
+        }
+    ]
+}

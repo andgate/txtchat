@@ -1,6 +1,13 @@
 resolver: lts-9.4
 packages:
 - '.'
-nix:
+extra-deps:
+docker:
   enable: true
-  packages: [zlib]
+image:
+  container:
+    name: txtchat
+    base: fpco/haskell-scratch:integer-gmp
+nix:
+  enable: false
+  pure: false

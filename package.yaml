@@ -3,7 +3,7 @@
 # this file: <https://github.com/sol/hpack>.
 
 
-name: txtswap
+name: txtchat
 maintainer: Gabriel Anderson
 synopsis: Modern Message Board
 description: Modern message board webapp written with Servant
@@ -30,37 +30,37 @@ ghc-options:
   - -fno-warn-unused-do-bind
   - -fno-warn-orphans
 
-dependencies:
-  - base
-  - servant
-  - servant-server
-  - transformers
-  - aeson
-  - wai
-  - warp
-
-
 executables:
-  txtswap:
+  txtchat:
     source-dirs: exe
     main: Main.hs
     dependencies:
-      - txtswap
+      - base
+      - txtchat
 
 
 library:
   source-dirs:
     - src
+  dependencies:
+    - base
+    - aeson
+    - servant
+    - servant-server
+    - text
+    - transformers
+    - wai
+    - warp
 
 
-tests:
-  spec:
-    source-dirs: test
-    main: Spec.hs
-    dependencies:
-      - hspec
-      - txtswap
-      - servant-client
-      - warp >= 3.2.4
-      - http-client
-      - http-types
+#tests:
+#  spec:
+#    source-dirs: test
+#    main: Spec.hs
+#    dependencies:
+#      - hspec
+#      - txtswap
+#      - servant-client
+#      - warp >= 3.2.4
+#      - http-client
+#      - http-types
