@@ -2,6 +2,3 @@ resolver: lts-9.6
 packages:
 - '.'
 extra-deps:
-nix:
-  enable: false
-  pure: false
