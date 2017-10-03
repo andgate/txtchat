@@ -29,7 +29,7 @@ itemApi = Proxy
 
 run :: IO ()
 run = do
-  let port = 8080
+  let port = 80
       settings =
         setPort port $
         setBeforeMainLoop (hPutStrLn stderr ("listening on port " ++ show port)) $
