@@ -2,12 +2,15 @@ resolver: lts-9.6
 packages:
 - '.'
 extra-deps:
+system-ghc: false
 docker:
   enable: true
-image:
-  container:
-    name: txtchat
-    base: fpco/haskell-scratch:integer-gmp
 nix:
   enable: false
   pure: false
+
+image:
+  container:
+    executables: [txtchat]
+    name: andgate/txtchat
+    base: fpco/stack-run
