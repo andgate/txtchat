@@ -1,0 +1,68 @@
+# This YAML file describes your package. Stack will automatically generate a
+# Cabal file when you run `stack build`. See the hpack website for help with
+# this file: <https://github.com/sol/hpack>.
+
+
+name: txtchat
+maintainer: Gabriel Anderson
+synopsis: Modern Message Board
+description: Modern message board webapp written with Servant
+github: andgate/txtswap
+category: Webapps
+version: '0.0.0'
+license: MIT
+
+extra-source-files:
+  - CHANGELOG.md
+  - LICENSE.md
+  - package.yaml
+  - README.md
+  - stack.yaml
+
+ghc-options: 
+  - -Wall
+  - -Wincomplete-uni-patterns
+  - -Wincomplete-record-updates
+  - -Wmissing-import-lists
+  - -fno-warn-name-shadowing
+  - -fno-warn-unused-binds
+  - -fno-warn-unused-matches
+  - -fno-warn-unused-do-bind
+  - -fno-warn-orphans
+  - -optl-static
+  - -fPIC
+
+executables:
+  txtchat:
+    source-dirs: exe
+    main: Main.hs
+    dependencies:
+      - base
+      - txtchat
+
+
+library:
+  source-dirs:
+    - src
+  dependencies:
+    - base
+    - aeson
+    - servant
+    - servant-server
+    - text
+    - transformers
+    - wai
+    - warp
+
+
+#tests:
+#  spec:
+#    source-dirs: test
+#    main: Spec.hs
+#    dependencies:
+#      - hspec
+#      - txtswap
+#      - servant-client
+#      - warp >= 3.2.4
+#      - http-client
+#      - http-types

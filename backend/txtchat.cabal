@@ -1,0 +1,52 @@
+-- This file has been generated from package.yaml by hpack version 0.17.1.
+--
+-- see: https://github.com/sol/hpack
+
+name:           txtchat
+version:        0.0.0
+synopsis:       Modern Message Board
+description:    Modern message board webapp written with Servant
+category:       Webapps
+homepage:       https://github.com/andgate/txtswap#readme
+bug-reports:    https://github.com/andgate/txtswap/issues
+maintainer:     Gabriel Anderson
+license:        MIT
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    LICENSE.md
+    package.yaml
+    README.md
+    stack.yaml
+
+source-repository head
+  type: git
+  location: https://github.com/andgate/txtswap
+
+library
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wincomplete-uni-patterns -Wincomplete-record-updates -Wmissing-import-lists -fno-warn-name-shadowing -fno-warn-unused-binds -fno-warn-unused-matches -fno-warn-unused-do-bind -fno-warn-orphans -optl-static -fPIC
+  build-depends:
+      base
+    , aeson
+    , servant
+    , servant-server
+    , text
+    , transformers
+    , wai
+    , warp
+  exposed-modules:
+      App
+  default-language: Haskell2010
+
+executable txtchat
+  main-is: Main.hs
+  hs-source-dirs:
+      exe
+  ghc-options: -Wall -Wincomplete-uni-patterns -Wincomplete-record-updates -Wmissing-import-lists -fno-warn-name-shadowing -fno-warn-unused-binds -fno-warn-unused-matches -fno-warn-unused-do-bind -fno-warn-orphans -optl-static -fPIC
+  build-depends:
+      base
+    , txtchat
+  default-language: Haskell2010

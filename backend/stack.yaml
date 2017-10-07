@@ -1,0 +1,21 @@
+resolver: lts-9.6
+packages:
+- '.'
+extra-deps:
+
+#nix:
+#  enable: true
+#  packages: [binutils, coreutils, gcc, gmp, zlibStatic]
+
+system-ghc: false
+
+docker:
+  enable: true
+  image: "fpco/stack-build"
+
+image:
+  container:
+    name: txtchat
+#    base: alpine-stack:latest
+#    entrypoints:
+#    - txtchatll

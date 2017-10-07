@@ -7,3 +7,6 @@ hk.db
 /*.tix
 /*.hpc
 TAGS
+
+/app/
+/bin/
