@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-10-07 22:52:18.7988 UTC
+2017-10-12 21:50:30.589776 UTC
 
 interface main@main:Main 8002
-  interface hash: 684b70f34aa79bfe85d94757701433ed
-  ABI hash: c6bfa133e2d457dfc7af7fbb19865a71
-  export-list hash: 4fe1e1d698eb4cce09d2bcf12da994a9
+  interface hash: b74e30093f2ff2564abb86babc2e0c63
+  ABI hash: b31b9d52759d22c989a3e2d28b0fc28e
+  export-list hash: a8536989c6298f7f4b59801cdd2a2788
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: e88f27c76b3662d7edd4303e1ee06e39
   sig of: Nothing
@@ -46,7 +46,7 @@ package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
                       http-date-0.0.6.1@http-date-0.0.6.1-AkYFHBFn90lGSerD29arC9
                       http-media-0.6.4@http-media-0.6.4-L2HKUvjwG4m4RLl78rlCa
                       http-types-0.9.1@http-types-0.9.1-G7E1zHPzooHCYxKqGuQmxY
-                      http2-1.6.3@http2-1.6.3-DWygTopf8WWKUNlYLaOtz7 integer-gmp-1.0.0.1
+                      http2-1.6.3@http2-1.6.3-5WuWRsIVuKR43Sq9Cs2O4Z integer-gmp-1.0.0.1
                       integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
                       iproute-1.7.1@iproute-1.7.1-EJjAtfniBUorobFQnk7lR
                       lifted-base-0.2.3.11@lifted-base-0.2.3.11-Ei0JSPdt7KOCD2HIA5jFqV
@@ -61,12 +61,12 @@ package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
                       parsec-3.1.11@parsec-3.1.11-1aqiimsgq2dCv7eoaC8WuX
                       pretty-1.1.3.3@pretty-1.1.3.3
                       primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
-                      psqueues-0.2.3.0@psqueues-0.2.3.0-3SifEITsJstB5B1chSnur
+                      psqueues-0.2.4.0@psqueues-0.2.4.0-CvAhEbuBRGQCwl61vq8zYS
                       random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
                       resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi
                       scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
                       servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs
-                      servant-server-0.11@servant-server-0.11-6GSrLD3m1gH7PGF3Rgmo1v
+                      servant-server-0.11@servant-server-0.11-BiMniyx7hKg5KZhleCHVTp
                       simple-sendfile-0.2.25@simple-sendfile-0.2.25-4uYtK5a0djFILo2ePfLs47
                       stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
                       streaming-commons-0.1.17@streaming-commons-0.1.17-6xuIA5RXrs65yyeq3HWIWP
@@ -80,7 +80,7 @@ package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
                       time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
                       transformers-0.5.2.0@transformers-0.5.2.0
                       transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
-                      txtchat-0.0.0@txtchat-0.0.0-1o8Aqjtvq9R5hgHWWsGv1b
+                      txtchat-0.0.0@txtchat-0.0.0-B9lZSHj982j8kFdXQdlpi8
                       unix-2.7.2.1@unix-2.7.2.1
                       unix-compat-0.4.3.1@unix-compat-0.4.3.1-Ausmw6d7KIwA7sl52mzqxC
                       unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
@@ -90,8 +90,8 @@ package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
                       vault-0.3.0.7@vault-0.3.0.7-FSJCPczyPWW8DwvwP76qt4
                       vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
                       wai-3.2.1.1@wai-3.2.1.1-GYhAFGd1F2uKjCUZVPyC2C
-                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-8MubWS6QIUj4moGFVJMNjp
-                      warp-3.2.13@warp-3.2.13-aVaWKlSn7QEH2BYhF38XR
+                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-IWVzgvpaMYRH5pqRQk33K1
+                      warp-3.2.13@warp-3.2.13-FhWulh599WH9bUCGJnpWGc
                       word8-0.1.3@word8-0.1.3-9o1uWQQ6KysJq8GGsVHHit
                       zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp
 orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
@@ -166,15 +166,15 @@ family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE
                          servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.IsSecure
                          servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Verbs
                          servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.Utils.Links
-                         servant-server-0.11@servant-server-0.11-6GSrLD3m1gH7PGF3Rgmo1v:Servant.Server.Internal
-                         servant-server-0.11@servant-server-0.11-6GSrLD3m1gH7PGF3Rgmo1v:Servant.Server.Internal.BasicAuth
-                         servant-server-0.11@servant-server-0.11-6GSrLD3m1gH7PGF3Rgmo1v:Servant.Server.Internal.Handler
-                         servant-server-0.11@servant-server-0.11-6GSrLD3m1gH7PGF3Rgmo1v:Servant.Server.Internal.RoutingApplication
+                         servant-server-0.11@servant-server-0.11-BiMniyx7hKg5KZhleCHVTp:Servant.Server.Internal
+                         servant-server-0.11@servant-server-0.11-BiMniyx7hKg5KZhleCHVTp:Servant.Server.Internal.BasicAuth
+                         servant-server-0.11@servant-server-0.11-BiMniyx7hKg5KZhleCHVTp:Servant.Server.Internal.Handler
+                         servant-server-0.11@servant-server-0.11-BiMniyx7hKg5KZhleCHVTp:Servant.Server.Internal.RoutingApplication
                          tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
                          template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
-                         txtchat-0.0.0@txtchat-0.0.0-1o8Aqjtvq9R5hgHWWsGv1b:App
+                         txtchat-0.0.0@txtchat-0.0.0-B9lZSHj982j8kFdXQdlpi8:App
                          unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
                          unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
                          uri-bytestring-0.2.3.3@uri-bytestring-0.2.3.3-Hc1wKsF7VwW2mAD17PrIxh:URI.ByteString.Types
@@ -188,7 +188,7 @@ family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE
                          zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
 import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
-import  -/  txtchat-0.0.0@txtchat-0.0.0-1o8Aqjtvq9R5hgHWWsGv1b:App d5998dd9f5075f6f7577afeafefc8635
+import  -/  txtchat-0.0.0@txtchat-0.0.0-B9lZSHj982j8kFdXQdlpi8:App fdc0a9e47579215473420c3f6846e071
 d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
@@ -201,12 +201,12 @@ d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "main"#) -}
-1defcc7cfeb77f1747b0fb60e70435a8
+1d20d8c7e7f32d4979ebfc18cfc9a474
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 App.run1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-25a0ba1e46ce921f8e76e3da496cc42a
+f3f7a218118873706f72fe9744131e68
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)

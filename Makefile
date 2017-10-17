@@ -1,7 +1,8 @@
-all: setup build deploy
+all: client server deploy
 
 
 server: setup-server build-server
+client: setup-client build-client
 
 
 setup: setup-client setup-server
@@ -11,19 +12,17 @@ build: build-client build-server
 
 
 setup-client:
-	(cd backend ; stack setup)
+	(cd backend ; stack docker pull ; stack setup)
 
 build-client:
-	(cd frontend ; stack build)
-	(cd frontend ; stack install --local-bin-path ../app)
+	(cd frontend ; stack build --install-ghc ; stack install --local-bin-path ../app)
 
 
 setup-server:
-	(cd backend ; stack setup)
+	(cd backend ; stack docker pull ; stack setup)
 
 build-server:
-	(cd backend ; stack build)
-	(cd backend ; stack install --local-bin-path ../bin)
+	(cd backend ; stack build ; stack install --local-bin-path ../bin)
 	upx --best --ultra-brute ./bin/txtchat
 
 

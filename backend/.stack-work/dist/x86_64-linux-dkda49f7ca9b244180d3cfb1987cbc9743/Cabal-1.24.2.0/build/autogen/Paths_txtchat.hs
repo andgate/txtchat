@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.6/8.0.2/bin"
-libdir     = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.6/8.0.2/lib/x86_64-linux-ghc-8.0.2/txtchat-0.0.0-1o8Aqjtvq9R5hgHWWsGv1b"
-dynlibdir  = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.6/8.0.2/lib/x86_64-linux-ghc-8.0.2"
-datadir    = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.6/8.0.2/share/x86_64-linux-ghc-8.0.2/txtchat-0.0.0"
-libexecdir = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.6/8.0.2/libexec"
-sysconfdir = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.6/8.0.2/etc"
+bindir     = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.8/8.0.2/bin"
+libdir     = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.8/8.0.2/lib/x86_64-linux-ghc-8.0.2/txtchat-0.0.0-B9lZSHj982j8kFdXQdlpi8"
+dynlibdir  = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.8/8.0.2/lib/x86_64-linux-ghc-8.0.2"
+datadir    = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.8/8.0.2/share/x86_64-linux-ghc-8.0.2/txtchat-0.0.0"
+libexecdir = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.8/8.0.2/libexec"
+sysconfdir = "/home/gabe/projects/txtchat/backend/.stack-work/install/x86_64-linux-dkda49f7ca9b244180d3cfb1987cbc9743/lts-9.8/8.0.2/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "txtchat_bindir") (\_ -> return bindir)

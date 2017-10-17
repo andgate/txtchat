@@ -2,8 +2,8 @@
 \#*\#
 .\#*
 hk.db
-/.stack-work/
-/*.cabal
+*/.stack-work/
+*/*.cabal
 /*.tix
 /*.hpc
 TAGS

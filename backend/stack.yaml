@@ -1,4 +1,4 @@
-resolver: lts-9.6
+resolver: lts-9.8
 packages:
 - '.'
 extra-deps:
@@ -11,7 +11,7 @@ system-ghc: false
 
 docker:
   enable: true
-  image: "fpco/stack-build"
+  repo: "fpco/stack-build:lts-9.8"
 
 image:
   container:

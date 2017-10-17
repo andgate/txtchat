@@ -17,7 +17,6 @@ cabal-version:  >= 1.10
 extra-source-files:
     LICENSE.md
     package.yaml
-    README.md
     stack.yaml
 
 source-repository head

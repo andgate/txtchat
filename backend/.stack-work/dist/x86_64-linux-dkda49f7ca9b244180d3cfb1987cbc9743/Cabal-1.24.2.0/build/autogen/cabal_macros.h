@@ -147,7 +147,7 @@
   (major1) == 2 && (major2) <  26 || \
   (major1) == 2 && (major2) == 26 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "txtchat-0.0.0-1o8Aqjtvq9R5hgHWWsGv1b"
+#define CURRENT_COMPONENT_ID "txtchat-0.0.0-B9lZSHj982j8kFdXQdlpi8"
 
-#define CURRENT_PACKAGE_KEY "txtchat-0.0.0-1o8Aqjtvq9R5hgHWWsGv1b"
+#define CURRENT_PACKAGE_KEY "txtchat-0.0.0-B9lZSHj982j8kFdXQdlpi8"
 
